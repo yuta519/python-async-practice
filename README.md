@@ -22,7 +22,7 @@
     - On synchronous programming after `fetch_data` is done, `print_numbers` starts and it totally takes 12 seconds to finish the code.
     - try the below command,
 
-    > python python sync_vs_async/sync.py
+    > python sync_vs_async/sync.py
 
     ```bash
     Start fetching
@@ -52,7 +52,7 @@
     - The tasks are defined but these are not yet executed at this point. When the first `await` appears, these tasks will be run.
     - try the below command,
 
-    > python python sync_vs_async/async.py
+    > python sync_vs_async/async.py
 
     ```
     tasks1 and 2 created, but not yet executed
