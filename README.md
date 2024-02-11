@@ -70,3 +70,7 @@
     9
     {'data': 1}
     ```
+
+    - You can see this code run tasks concurrently like the below diagram.
+
+    ![Diagram of async programming](assets/async.png)
