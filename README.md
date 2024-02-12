@@ -74,3 +74,11 @@
     - You can see this code run tasks concurrently like the below diagram.
 
     ![Diagram of async programming](assets/async.png)
+
+## asyncio terms
+
+- Single Threading
+  - To excuete tasks concurrently, multi threading and multi processing are required.
+  - However, asyncio is working single threading.
+  - How? This is because `Event Loop` enables tasks work concurrently.
+- ## Event Loop
