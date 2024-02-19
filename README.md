@@ -82,9 +82,11 @@
   - However, asyncio is working single threading.
   - How? This is because `Event Loop` enables tasks work concurrently.
 - Event Loop
-  - Event Loop is
-    - a core of async, which waits for a message and event and dispaches them.
-    - a concept to wait for events and dipatch them in a program.
-    - responsible for managing the execution of asynchronous tasks.
+  - a core of async, which waits for a message and event and dispaches them.
+  - a concept to wait for events and dipatch them in a program.
+  - responsible for managing the execution of asynchronous tasks.
   - [This article](https://www.pythontutorial.net/python-concurrency/python-event-loop/) helps you understand what event loop is.
     ![Event loop](https://www.pythontutorial.net/wp-content/uploads/2022/07/python-event-loop.svg)
+- Coroutine
+  - functions which works asynchornously
+  - define with `async def`
