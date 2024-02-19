@@ -81,4 +81,7 @@
   - To excuete tasks concurrently, multi threading and multi processing are required.
   - However, asyncio is working single threading.
   - How? This is because `Event Loop` enables tasks work concurrently.
-- ## Event Loop
+- Event Loop
+  - Event Loop is a core of async, which waits for a message and event and dispaches them.
+  - 
+
