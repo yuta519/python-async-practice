@@ -7,7 +7,7 @@
 
 ## What is Asynchrounous Programing?
 
-- allows a program to perform multiple operations concurrently.
+- Allows a program to perform multiple operations concurrently.
 - While main tasks run, other tasks are initiated and then are set aside until results are needed
 - For example, when you wait for the oven to bake a cake, you are free. So during baking you can cook whip.
 
@@ -82,6 +82,9 @@
   - However, asyncio is working single threading.
   - How? This is because `Event Loop` enables tasks work concurrently.
 - Event Loop
-  - Event Loop is a core of async, which waits for a message and event and dispaches them.
-  - 
-
+  - Event Loop is
+    - a core of async, which waits for a message and event and dispaches them.
+    - a concept to wait for events and dipatch them in a program.
+    - responsible for managing the execution of asynchronous tasks.
+  - [This article](https://www.pythontutorial.net/python-concurrency/python-event-loop/) helps you understand what event loop is.
+    ![Event loop](https://www.pythontutorial.net/wp-content/uploads/2022/07/python-event-loop.svg)
