@@ -88,5 +88,6 @@
   - [This article](https://www.pythontutorial.net/python-concurrency/python-event-loop/) helps you understand what event loop is.
     ![Event loop](https://www.pythontutorial.net/wp-content/uploads/2022/07/python-event-loop.svg)
 - Coroutine
-  - functions which works asynchornously
+  - a core concept of asyncio, which is allowed to suspend and resume the execution
+  - in general, python functions which works asynchornously
   - define with `async def`
