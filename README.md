@@ -95,6 +95,8 @@
 ## How to use coroutine for async programming
 
 - To run a coroutine
+  - Declare coroutine with `async def`, which does nothing at the point of declaration.
+  - To pause and resume this execution, `await` keyword is required.
 
 ```python
 import asyncio
@@ -118,3 +120,9 @@ async def main():
 
 asyncio.run(main())
 ```
+
+- In the above example:
+  - 2 corountines are defined, `say_after` and `main`.
+  - The `main` runs twice `say_after` with `await` keyword.
+  - So when you run this code, you will see 'hello' after 1 sec and 'world' 2 secs after your execution.
+  - In addition, `asyncio.run()` is used to run the coroutine `main`.
