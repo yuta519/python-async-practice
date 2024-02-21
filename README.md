@@ -91,3 +91,30 @@
   - a core concept of asyncio, which is allowed to suspend and resume the execution
   - in general, python functions which works asynchornously
   - define with `async def`
+
+## How to use coroutine for async programming
+
+- To run a coroutine
+
+```python
+import asyncio
+import time
+
+
+async def say_after(delay, what):
+    await asyncio.sleep(delay)
+    print(what)
+  """_summary_
+  """
+
+async def main():
+    print(f"started at {time.strftime('%X')}")
+
+    await say_after(1, 'hello')
+    await say_after(2, 'world')
+
+    print(f"finished at {time.strftime('%X')}")
+
+
+asyncio.run(main())
+```
